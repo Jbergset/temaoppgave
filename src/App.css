@@ -1,7 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
 .App {
   text-align: center;
 }
-
+.Motivasjoner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  justify-content: center;
+}
+.App p{
+  font-size: 24px;
+  font-weight: bold;
+}
 .App-logo {
   height: 40vmin;
 }
@@ -19,4 +35,66 @@
 
 .App-link {
   color: #09d3ac;
+}
+header {
+  background-color: yellowgreen;
+  height: 53px;
+}
+.top-nav {
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.top-nav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.top-nav a:hover {
+  /* background-color: #111; */
+}
+
+.konteiner {
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.konteiner:hover {
+  background-color: lightblue;
+}
+img {
+  width: 80%;
+  bottom: 0;
+  margin-bottom: 10%;
+  border-radius: 10px;
+}
+
+.InputSearch {
+  border: 0;
+  border-bottom: 2px solid rgb(26, 161, 55);
+  width: 20%;
+  font-size: 30px;
+  line-height: 35px;
+  height: 70px;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  color: rgb(57, 177, 97);
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.main-nav-active {
+  background-color: darkgreen;
+}
+
+.FavorittBilder {
+  width: 120px;
+  height: 150px;
+  margin-bottom: 0;
+  margin: 5px;
 }
